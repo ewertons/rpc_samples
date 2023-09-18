@@ -2,6 +2,7 @@ sudo apt-get install curl zip unzip tar
 git clone -b feature/v2 https://github.com/Azure/azure-sdk-for-c
 cd azure-sdk-for-c
 git apply ../azure-sdk-for-c.gitpatch
+git apply ../azure-sdk-for-c-samples.gitpatch
 cd ..
 git clone https://github.com/microsoft/vcpkg
 cd vcpkg
